@@ -1,0 +1,9 @@
+<div class="modal-custom">
+  <button (click)="openModalConfirmation()">confirmation</button>
+  <p>respuesta de la confirmacion {{response}}</p>
+
+  <p>data enviada desde donde se detone la llamada a la modal
+    {{dataUser | json}}
+  </p>
+  <button (click)="onCloseModal()">close</button>
+</div>
